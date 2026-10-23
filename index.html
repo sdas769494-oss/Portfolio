@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Developer portfolio showcasing skills, projects and contact information."
+    />
+    <title>My Portfolio | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+      <button
+        class="menu-btn"
+        id="menu-btn"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+
+      <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button id="theme-btn" class="theme-btn" aria-label="Toggle theme">
+          ☀️
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span class="gradient">Your Name</span></h1>
+          <h2>I'm a <span id="typing">Frontend Developer</span></h2>
+          <p class="hero-description">
+            I'm a passionate fresher who loves creating beautiful, responsive
+            and user-friendly websites using modern web technologies.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn primary">Explore My Work ↗️</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub ↗️</a
+            >
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn ↗️</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="glow"></div>
+          <div class="profile-card">
+            <div class="avatar">👨‍💻</div>
+            <p class="status"><span></span> Available for opportunities</p>
+            <h3>Frontend Developer</h3>
+            <p>Turning ideas into interactive experiences.</p>
+            <div class="tech-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+          <div class="floating-badge badge-one">💻 Clean Code</div>
+          <div class="floating-badge badge-two">✨ Creative Design</div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span class="gradient">Me</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Who am I?</h3>
+            <p>
+              I'm a B.Sc. IT graduate and aspiring Frontend Developer. I enjoy
+              building websites that look great and work smoothly across
+              different devices. I'm continuously learning and improving my
+              development skills.
+            </p>
+            <a href="#contact" class="text-link">Let's work together ↗️</a>
+          </div>
+
+          <div class="about-card education-card">
+            <div class="education-icon">🎓</div>
+            <div>
+              <p class="eyebrow">EDUCATION</p>
+              <h3>Bachelor of Science in IT</h3>
+              <p>B.Sc. IT — Graduation Completed</p>
+              <p class="muted">Aspiring Frontend Developer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2>My <span class="gradient">Skills</span></h2>
+          <p>Technologies I'm learning and using to build websites.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML5</h3>
+            <p>Semantic and accessible web structure</p>
+            <div class="skill-track"><span style="--level: 85%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>Layouts, animations and responsive design</p>
+            <div class="skill-track"><span style="--level: 75%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Interactive websites and DOM basics</p>
+            <div class="skill-track"><span style="--level: 55%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">📱</div>
+            <h3>Responsive Design</h3>
+            <p>Mobile-friendly user experiences</p>
+            <div class="skill-track"><span style="--level: 70%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">🐙</div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and code sharing</p>
+            <div class="skill-track"><span style="--level: 50%"></span></div>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon">🖥️</div>
+            <h3>VS Code</h3>
+            <p>Development and debugging workflow</p>
+            <div class="skill-track"><span style="--level: 75%"></span></div>
+          </article>
+        </div>
+        <p class="skill-note">
+          Edit the skill bars to reflect your actual proficiency.
+        </p>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">MY RECENT WORK</p>
+          <h2>Featured <span class="gradient">Projects</span></h2>
+          <p>A selection of projects built while learning web development.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-preview grocery">🛒</div>
+            <div class="project-info">
+              <span class="project-type">E-COMMERCE</span>
+              <h3>QuickBasket</h3>
+              <p>
+                A grocery shopping website with product listings and a clean
+                interface.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub ↗️</a
+                >
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo ↗️</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview coffee">☕</div>
+            <div class="project-info">
+              <span class="project-type">BUSINESS WEBSITE</span>
+              <h3>Coffee Restaurant</h3>
+              <p>
+                A stylish restaurant website with menu, about and contact
+                sections.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub ↗️</a
+                >
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo ↗️</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview doctor">🩺</div>
+            <div class="project-info">
+              <span class="project-type">WEB APPLICATION</span>
+              <h3>Doctor Appointment</h3>
+              <p>
+                A healthcare website concept for appointments and user
+                authentication.
+              </p>
+              <div class="tech-tags">
+                <span>HTML</span><span>CSS</span><span>Firebase</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub ↗️</a
+                >
+                <a
+                  href="https://example.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live Demo ↗️</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+          <h2>Let's <span class="gradient">Connect</span></h2>
+          <p>Have an opportunity or a question? Send me a message.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-details">
+            <h3>Let's talk!</h3>
+            <p>
+              I'm interested in entry-level frontend roles and opportunities to
+              learn and grow.
+            </p>
+            <p>
+              📧
+              <a id="email-link" href="mailto:your.email@example.com"
+                >your.email@example.com</a
+              >
+            </p>
+            <p>
+              💼
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn Profile ↗️</a
+              >
+            </p>
+            <p>
+              💻
+              <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub Profile ↗️</a
+              >
+            </p>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <label for="name">Your Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="email">Your Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+
+            <button type="submit" class="btn primary">Send Message ↗️</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#home" class="logo">Portfolio<span>.</span></a>
+      <p>Designed & built with ❤️ by Your Name</p>
+      <p>© <span id="year"></span> All rights reserved.</p>
+    </footer>
+
+    <button id="top-btn" class="top-btn" aria-label="Back to top">↑</button>
+    <script src="javascript.js"></script>
+  </body>
+</html>
